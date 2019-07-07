@@ -12,7 +12,6 @@ import java.util.Random;
 
 public class MarbleState {
 
-  private static final int MARBLES_WIN_COUNT = 5;
   private static final int APPENDED_MARBLES_COUNT = 3;
   private static final int INITIAL_MARBLES_COUNT = 3;
   private static final int MARBLES_TYPES_COUNT = 4;
