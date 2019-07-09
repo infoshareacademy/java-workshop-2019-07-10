@@ -104,13 +104,9 @@ public class MarbleState {
         validateWin();
 
         // If there was no row, user gets no points and new random marbles arrive.
-        while (!isWinStatus) {
+        if (!isWinStatus) {
           appendNewMarblesToGrid();
           validateWin();
-
-          if (!isWinStatus) {
-            break;
-          }
         }
 
         return;
