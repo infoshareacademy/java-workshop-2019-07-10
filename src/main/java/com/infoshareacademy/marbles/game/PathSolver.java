@@ -24,12 +24,7 @@ public class PathSolver {
     rowsCount = MarbleState.GRID_FIELD_HEIGHT;
 
     // Prepare a copy of the grid state for algorithm's purposes.
-    state = new int[columnsCount][rowsCount];
-    for (int i = 0; i < columnsCount; i++) {
-      for (int j = 0; j < rowsCount; j++) {
-        state[i][j] = marbleGrid.getValue(i, j);
-      }
-    }
+
 
     // Set up the target field
     endColumn = endCol;
