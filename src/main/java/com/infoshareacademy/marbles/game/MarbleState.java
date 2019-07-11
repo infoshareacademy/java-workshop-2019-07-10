@@ -17,6 +17,8 @@ public class MarbleState {
   private static final int MARBLES_TYPES_COUNT = 4;
   public static final int GRID_FIELD_WIDTH = 9;
   public static final int GRID_FIELD_HEIGHT = 9;
+  public static final int MARBLES_WIN_COUNT = 5;
+
 
   private MarbleGridProperty marbleGrid = new MarbleGridProperty(
       GRID_FIELD_WIDTH, GRID_FIELD_HEIGHT);
